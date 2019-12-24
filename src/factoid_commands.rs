@@ -63,6 +63,9 @@ pub fn handle_privmsg(event: Event, dazeus: &dyn DaZeusClient) {
     }
     // take off prefix
     let factoid = &message[1..];
+
+    // replace <who> and <channel>
+
     unimplemented!();
 }
 
